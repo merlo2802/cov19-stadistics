@@ -1,5 +1,6 @@
 Proyecto estadisticas de covid-19 
-Autor: Alvaro Merlo
+
+#Autor: Alvaro Merlo
 
 API DE COVID 
 https://github.com/Laeyoung/COVID-19-API
