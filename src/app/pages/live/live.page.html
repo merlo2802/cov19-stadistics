@@ -1,0 +1,78 @@
+<app-sidebar></app-sidebar>
+<ion-content class="mainbackground">
+<div class="container">
+<div class="header">
+<div class="row">
+<div class="col-8"><div class="title"><a (click)="dashboardPage()" class="back-btn"><i class="fas fa-angle-left" ></i></a> Live Update</div>
+</div>
+<div class="col-4 text-right"><a class="menu-btn"><i class="fas fa-bars"></i></a> <div class="profile-pic" (click)="profilePage()"><img src="../../../assets/images/user-profile.jpg" class="width-100"/></div></div>
+</div>
+</div>
+<div class="body">
+<div class="search-box">
+<form>
+<input type="search" placeholder="Search here" id="search"/>
+<button type="submit"><i class="fa fa-search"></i></button>
+</form>
+</div>
+<div class="head-title">All contries</div>
+<div class="countrylist">
+<div class="country-box" (click)="singlecountryPage()">
+<div class="row">
+<div class="col-2"><i class="flag-icon flag-icon-us" title="us" id="us"></i></div>
+<div class="col-5"><div class="name">USA</div>
+<div class="count text-danger">2,440,198</div>
+</div>
+<div class="col-5"><div class="count text-success">145,458</div></div>
+</div>
+</div>
+<div class="country-box" (click)="singlecountryPage()">
+<div class="row">
+<div class="col-2"><i class="flag-icon flag-icon-it" title="it" id="it"></i></div>
+<div class="col-5"><div class="name">Italy</div>
+<div class="count text-danger">1,145,458</div>
+</div>
+<div class="col-5"><div class="count text-success">25,458</div></div>
+</div>
+</div>
+<div class="country-box" (click)="singlecountryPage()">
+<div class="row">
+<div class="col-2"><i class="flag-icon flag-icon-es" title="es" id="es"></i></div>
+<div class="col-5"><div class="name">Spain</div>
+<div class="count text-danger">645,458</div>
+</div>
+<div class="col-5"><div class="count text-success">15,458</div></div>
+</div>
+</div>
+<div class="country-box" (click)="singlecountryPage()">
+<div class="row">
+<div class="col-2"><i class="flag-icon flag-icon-gb" title="gb" id="gb"></i></div>
+<div class="col-5"><div class="name">UK</div>
+<div class="count text-danger">45,458</div>
+</div>
+<div class="col-5"><div class="count text-success">5,458</div></div>
+</div>
+</div>
+<div class="country-box" (click)="singlecountryPage()">
+<div class="row">
+<div class="col-2"><i class="flag-icon flag-icon-ca" title="ca" id="ca"></i></div>
+<div class="col-5"><div class="name">Canada</div>
+<div class="count text-danger">5,458</div>
+</div>
+<div class="col-5"><div class="count text-success">458</div></div>
+</div>
+</div>
+<div class="country-box" (click)="singlecountryPage()">
+<div class="row">
+<div class="col-2"><i class="flag-icon flag-icon-ai" title="ai" id="ai"></i></div>
+<div class="col-5"><div class="name">Australia</div>
+<div class="count text-danger">2,358</div>
+</div>
+<div class="col-5"><div class="count text-success">158</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</ion-content>
+<app-footer></app-footer>

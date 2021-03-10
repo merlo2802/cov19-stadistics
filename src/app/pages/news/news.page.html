@@ -1,0 +1,90 @@
+<app-sidebar></app-sidebar>
+<ion-content  class="mainbackground">
+<div class="container">
+<div class="header">
+<div class="row">
+<div class="col-8"><div class="title"><a (click)="dashboardPage()" class="back-btn"><i class="fas fa-angle-left" ></i></a> News</div>
+</div>
+<div class="col-4 text-right"><a class="menu-btn"><i class="fas fa-bars"></i></a> <div class="profile-pic" (click)="profilePage()"><img src="../../../assets/images/user-profile.jpg" class="width-100"/></div></div>
+</div>
+</div>
+<div class="body">
+<div class="head">Top News</div>
+<div class="top-news">
+<owl-carousel [options]="mySlideOptions" class="owl-theme">
+     <div class="item">
+     <div class="news-box">
+     <div class="image"><img src="../../../assets/images/news1.jpg" class="w-100"/></div> 
+     <div class="content">
+     <div class="title"><a (click)="newsdetailsPage()" >Corona cases increase more stay safe</a></div>
+     <p>Carona affect all over the world take care....</p>
+     </div>
+      </div>
+    </div>
+    <div class="item">
+     <div class="news-box">
+     <div class="image"><img src="../../../assets/images/news2.jpg" class="w-100"/></div> 
+     <div class="content">
+     <div class="title"><a (click)="newsdetailsPage()">Corona cases increase more stay safe</a></div>
+     <p>Carona affect all over the world take care....</p>
+     </div>
+      </div>
+    </div>
+    <div class="item">
+     <div class="news-box">
+     <div class="image"><img src="../../../assets/images/news3.jpg" class="w-100"/></div> 
+     <div class="content">
+     <div class="title"><a (click)="newsdetailsPage()">Corona cases increase more stay safe</a></div>
+     <p>Carona affect all over the world take care....</p>
+     </div>
+      </div>
+    </div>
+     </owl-carousel>
+</div>
+<div class="head">Latest News</div>
+<div class="latest-news">
+<div class="box">
+<div class="date">22
+<span>APR</span>
+</div>
+<div class="content">
+<div class="title"><a (click)="newsdetailsPage()">Corona spread more now days</a></div>
+<p>Carona affect all over the world take care....</p>
+</div>
+<div class="more"><a class="more-btn" (click)="newsdetailsPage()"><i class="fas fa-angle-right"></i></a></div>
+</div>
+<div class="box">
+<div class="date">18
+<span>APR</span>
+</div>
+<div class="content">
+<div class="title"><a (click)="newsdetailsPage()">Covid-19 more spread on USA</a></div>
+<p>Carona affect all over the world take care....</p>
+</div>
+<div class="more"><a class="more-btn" (click)="newsdetailsPage()"><i class="fas fa-angle-right"></i></a></div>
+</div>
+<div class="box">
+<div class="date">17
+<span>APR</span>
+</div>
+<div class="content">
+<div class="title"><a (click)="newsdetailsPage()">Corona spread more </a></div>
+<p>Carona affect all over the world take care....</p>
+</div>
+<div class="more"><a class="more-btn" (click)="newsdetailsPage()"><i class="fas fa-angle-right"></i></a></div>
+</div>
+<div class="box">
+<div class="date">15
+<span>APR</span>
+</div>
+<div class="content">
+<div class="title"><a (click)="newsdetailsPage()">Need to hand wash</a></div>
+<p>Carona affect all over the world take care....</p>
+</div>
+<div class="more"><a class="more-btn" (click)="newsdetailsPage()"><i class="fas fa-angle-right"></i></a></div>
+</div>
+</div>
+</div>
+</div>
+</ion-content>
+<app-footer></app-footer>

@@ -1,0 +1,28 @@
+<div class="footer">
+  <ul>
+    <li (click)="dashboardPage()">
+      <a class="icon" [ngClass]="url1 == '/dashboard' ? 'active ' : ''">
+        <img src="../../../assets/images/home.svg"class="w-100 normal" />
+        <img src="../../../assets/images/home-hover.svg" class="w-100 hover" />
+      </a>
+    </li>
+    <li (click)="liveupdatePage()">
+      <a class="icon" [ngClass]="url1 == '/live' ? 'active ' : ''">
+        <img src="../../../assets/images/live.svg" class="w-100 normal" />
+        <img src="../../../assets/images/live-hover.svg" class="w-100 hover" />
+      </a>
+    </li>
+    <li (click)="testPage()">
+      <a class="icon" [ngClass]="url1 == '/testyourself' ? 'active ' : ''">
+        <img src="../../../assets/images/test.svg" class="w-100 normal" />
+        <img src="../../../assets/images/test-hover.svg" class="w-100 hover" />
+      </a>
+    </li>
+    <li (click)="settingsPage()">
+      <a class="icon" [ngClass]="url1 == '/settings' ? 'active ' : ''">
+        <img src="../../../assets/images/settings.svg" class="w-100 normal" />
+        <img src="../../../assets/images/settings-hover.svg" class="w-100 hover" />
+      </a>
+    </li>
+  </ul>
+</div>

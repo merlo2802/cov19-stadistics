@@ -1,0 +1,41 @@
+<app-sidebar></app-sidebar>
+<ion-content class="mainbackground">
+	<div class="container">
+		<div class="header ion-padding-top">
+			<div class="row">
+				<div class="col-8"><div class="title">Dashboard</div></div>
+				<div class="col-4 text-right">
+					<a class="menu-btn"><i class="fas fa-bars"></i></a>
+					<div class="profile-pic" (click)="profilePage()">
+						<img src="../../../assets/images/user-profile.jpg" class="width-100" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="body">
+			<div class="ion-padding-bottom">
+				
+			</div>
+			<div class="date">{{ this.fecha |date}}</div>
+			<div class="label">Casos coronavirus</div>
+			<div class="countvalue">{{ this.totalCasos |number }}</div>
+			<div class="death-box">
+				<div class="row">
+					<div class="col-6">
+						<div class="count-box bg-danger">
+							<div class="label">Fallecidos</div>
+							<div class="value"><ng2-odometer [number]="this.fallecidos" [config]="{ }"></ng2-odometer></div>
+						</div>
+					</div>
+					<div class="col-6">
+						<div class="count-box bg-success">
+							<div class="label">Recuperados</div>
+							<div class="value"><ng2-odometer [number]="this.recuperados" [config]="{ }"></ng2-odometer></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</ion-content>
+<app-footer></app-footer>

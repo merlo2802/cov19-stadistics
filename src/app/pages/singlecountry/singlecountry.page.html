@@ -1,0 +1,53 @@
+<app-sidebar></app-sidebar>
+<ion-content class="mainbackground">
+<div class="container">
+<div class="header">
+<div class="row">
+<div class="col-8"><div class="title"><a (click)="dashboardPage()" class="back-btn"><i class="fas fa-angle-left" ></i></a> USA</div>
+</div>
+<div class="col-4 text-right"><a class="menu-btn"><i class="fas fa-bars"></i></a> <div class="profile-pic" (click)="profilePage()"><img src="../../../assets/images/user-profile.jpg" class="width-100"/></div></div>
+</div>
+</div>
+<div class="body">
+<div class="date">May 2 2020, 12:11 AM</div>
+<div class="label">Total corona cases</div>
+<div class="countvalue">3,450,567</div>
+<div class="death-box">
+<div class="row">
+<div class="col-6">
+<div class="count-box bg-danger">
+<div class="label">Deaths</div>
+<div class="value"><ng2-odometer [number]="300342" [config]="{ }"></ng2-odometer></div>
+</div>
+</div>
+<div class="col-6"><div class="count-box bg-success">
+<div class="label">Recovered</div>
+<div class="value"><ng2-odometer [number]="24345" [config]="{ }"></ng2-odometer></div>
+</div></div>
+</div>
+</div>
+<div class="head">New vs old cases</div>
+<div class="card chart">
+<div class="card-body">
+<div class="select-form">
+<div class="custom-dropdown"><a id="projectworkloadmenu" class="dropdown head" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">Weekly <i class="fas fa-angle-down"></i></a>
+  <div class="dropdown-menu" aria-labelledby="projectworkloadmenu">
+ <a class="dropdown-item" href="#"> Monthly</a>
+ <a class="dropdown-item" href="#"> Yearly</a>
+  </div>
+  </div>
+</div>
+<canvas #lineCanvas></canvas>
+</div>
+</div>
+<div class="call-box animated fadeInUp">
+<div class="image"><img src="../../../assets/images/call-icon.svg" class="w-100"/></div>
+<div class="content">
+<div class="label">For any emergency call?</div>
+<div class="value">+1 222 222 2222</div>
+</div>
+</div>
+</div>
+</div>
+</ion-content>
+<app-footer></app-footer>

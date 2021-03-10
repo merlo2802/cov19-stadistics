@@ -1,0 +1,53 @@
+.chart
+{
+margin-bottom:30px;
+}
+.select-form
+{
+margin-bottom:15px;
+}
+.card
+{
+background:#EAEAEA;
+border-radius:15px;
+overflow:hidden;
+}
+.card .card-body
+{
+ padding:0px;
+}
+.card .select-form
+{
+  padding-top:20px;
+  padding-left:20px;
+  padding-right:20px;
+  padding-bottom:0px;
+  position:relative;
+  margin-bottom:0px;
+}
+.card .select-form .head
+{
+  font-size:14px;
+}
+.dropdown-menu {
+    width: 100px;
+    min-width: 100px;
+}
+.custom-dropdown .dropdown-menu {
+    -webkit-animation-name: dropdownAnimation;
+    animation-name: dropdownAnimation;
+    -webkit-animation-duration: .2s;
+    animation-duration: .2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    margin: 0px;
+        margin-top: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    margin-top: 5px;
+}
+.custom-dropdown .dropdown-menu a {
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

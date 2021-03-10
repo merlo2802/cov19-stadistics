@@ -1,0 +1,35 @@
+.symptoms .box
+{
+  background:#EAEAEA;
+  border-radius:10px;
+  padding:20px;
+  margin-bottom:30px;
+  cursor:pointer;
+}
+.symptoms .box:hover
+{
+box-shadow: 0px 0px 3px 0px #CCC;
+}
+.symptoms .row .col-6:nth-child(2) .box
+{
+  margin-top:30px;
+}
+.symptoms .box .image
+{
+  width:70px;
+  margin:auto;
+  margin-bottom:10px;
+}
+.symptoms .box .title
+{
+  font-size:14px;
+  font-weight:700;
+  color:#0e3746;
+  margin-bottom:5px;
+}
+.symptoms .box p
+{
+  font-size:14px;
+  color:#0e3746;
+  margin-bottom:0px;
+}

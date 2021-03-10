@@ -1,0 +1,34 @@
+<ion-content>
+    <div class="background">
+        <div class="overlay"></div>
+    </div>
+    <div class="logo">
+        <div class="logo-box">
+            <div class="icon"><img src="../../../assets/images/logoicon.svg" class="w-100" /></div>
+            <div class="name">COV-19</div>
+        </div>
+        <div class="slogan" style="padding-left: 1rem;">Quédate en casa</div>
+    </div>
+    <div class="walkthrough-slider">
+        <owl-carousel [options]="mySlideOptions">
+            <div class="item">
+                <div class="icon"><img src="../../../assets/images/icon1.svg" class="w-100 h-100" /></div>
+                <div class="slider-title">Wear Mask</div>
+                <p class="slider-description">When go outside wear mask always.</p>
+            </div>
+            <div class="item">
+                <div class="icon"><img src="../../../assets/images/icon2.svg" class="w-100 h-100" /></div>
+                <div class="slider-title">Wash hand</div>
+                <p class="slider-description">Wash your hand about 20 minute regularly.</p>
+            </div>
+            <div class="item">
+                <div class="icon"><img src="../../../assets/images/icon3.svg" class="w-100 h-100" /></div>
+                <div class="slider-title">Stay home</div>
+                <p class="slider-description">To avoid corona we need to stay home.</p>
+            </div>
+        </owl-carousel>
+    </div>
+    <div class="bottom-btn-box">
+        <a class="theme btn btn-primary" (click)="loginPage()">Ingresar</a>
+    </div>
+</ion-content>
